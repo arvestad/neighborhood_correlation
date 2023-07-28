@@ -23,7 +23,7 @@ http://www.neighborhoodcorrelation.org/ or the paper above.
 
 # Licensing
 
-(C) 2011 Jacob Joseph <jmjoseph@andrew.cmu.edu>, and Carnegie Mellon University. 
+(C) 2011 Jacob Joseph (<jmjoseph@andrew.cmu.edu>), and Carnegie Mellon University. 
     
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -33,7 +33,7 @@ your option) any later version, see `LICENCE`.
 
 ## Prerequisites
 
-This program requires  numpy.
+This program requires `numpy`.
 
 Additionally, a C compiler is required during installation to compile
 the inner loop of the algorithm.  Such a compiler will be available on
@@ -42,15 +42,17 @@ nearly all UNIX-based systems.
 
 ## Installation
 
-This program may be installed to your (Linux) system as follows.
+This program may be installed to your system (Mac and Linux at least, please report successful builds on other systems!) as follows.
 Other platforms may require slight variations.
 
 ```
 git clone git@github.com:arvestad/neighborhood_correlation.git
 cd neighborhood_correlation
-python setup.py build
-python setup.py install
+python -m build
+python install .
 ```
+
+Note that this package is using the "next generation" of Python package build tools, so leaving old-style setup.py behind.
 
 # Running Neighborhood Correlation
 
