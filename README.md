@@ -1,6 +1,6 @@
 # Neighborhood Correlation
 
-This program implements Neighborhood Correlation, as described in 
+This program implements Dannie Durand's Neighborhood Correlation, as described in 
 Song, Joseph, et al., 2008 (see below). It is designed to take BLAST bit-scores as input.
 
 For details, see the [Neighborhood Correlation website](http://www.neighborhoodcorrelation.org). 
