@@ -11,11 +11,13 @@ and Github adaption.
 
 ## Cite!
 
-For details of Neighborhood Correlation please refer to
-http://www.neighborhoodcorrelation.org/ or the publication:
+If you use this software, please cite:
 
-Song N, Joseph JM, Davis GB, Durand D; _Sequence Similarity Network Reveals Common Ancestry of Multidomain
+* Song N, Joseph JM, Davis GB, Durand D; _Sequence Similarity Network Reveals Common Ancestry of Multidomain
 Proteins_; PLoS Computational Biology 4(5): e1000063; doi:10.1371/journal.pcbi.1000063
+
+For details of Neighborhood Correlation please refer to
+http://www.neighborhoodcorrelation.org/ or the paper above. 
 
 
 
