@@ -3,9 +3,12 @@ name = "neighborhood_correlation"
 version = "2.2"
 dependencies = [
     "numpy",
-    ]
+]
 authors = [
     {name = "Jacob Joseph", email = "jmjoseph@andrew.cmu.edu"},
+]
+maintainers = [
+    {name = "Lars Arvestad", email = "arve@math.su.se"}
 ]
 description = "Protein sequence similarity assessment by assessing variance of sequences' scores to _other_ sequences"
 readme = "README.md"
@@ -24,3 +27,10 @@ build-backend = "setuptools.build_meta"
 
 [project.scripts]
 NC_standalone = "neighborhood_correlation:main"
+
+[project.urls]
+homepage = "http://www.neighborhoodcorrelation.org"
+
+[tool.setuptools]
+packages = ["neighborhood_correlation"]
+
