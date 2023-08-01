@@ -20,17 +20,6 @@ For details of Neighborhood Correlation please refer to
 http://www.neighborhoodcorrelation.org/ or the paper above. 
 
 
-
-# Licensing
-
-(C) 2011 Jacob Joseph (<jmjoseph@andrew.cmu.edu>), and Carnegie Mellon University. 
-    
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 3 of the License, or (at
-your option) any later version, see `LICENCE`.
-
-
 ## Prerequisites
 
 This program requires `numpy`.
@@ -53,6 +42,16 @@ python install .
 ```
 
 Note that this package is using the "next generation" of Python package build tools, so leaving old-style setup.py behind.
+
+## Licensing
+
+(C) 2011 Jacob Joseph (<jmjoseph@andrew.cmu.edu>), and Carnegie Mellon University. 
+    
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or (at
+your option) any later version, see `LICENCE`.
+
 
 # Running Neighborhood Correlation
 
