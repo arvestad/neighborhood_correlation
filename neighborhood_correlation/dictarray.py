@@ -126,7 +126,7 @@ Scores will be transformed by application of a log_10."""
     #print >> sys.stderr, time.ctime()
 
     try:
-        from nc import nchelparr
+        from neighborhood_correlation import nchelparr
 
     except:
         m = """WARNING: Neighborhood Correlation C helper not found.  Using the pure
@@ -134,7 +134,7 @@ Scores will be transformed by application of a log_10."""
         the readme documentation for instructions on building."""
         print(m, file=sys.stderr)
             
-        from nc import nchelparr_python
+        from neighborhood_correlation import nchelparr_python
 
     fd = open(fname)
     sd = {}
