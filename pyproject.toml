@@ -1,6 +1,5 @@
 [project]
 name = "neighborhood_correlation"
-version = "2.2"
 dependencies = [
     "numpy",
 ]
@@ -19,6 +18,8 @@ classifiers = [
         "Operating System :: OS Independent",
         "Topic :: Scientific/Engineering :: Bio-Informatics",
 ]
+dynamic = ["version"]
+
 
 [build-system]
 requires = ["setuptools", "numpy"]
@@ -28,9 +29,13 @@ build-backend = "setuptools.build_meta"
 [project.scripts]
 NC_standalone = "neighborhood_correlation:main"
 
+
 [project.urls]
 homepage = "http://www.neighborhoodcorrelation.org"
+
 
 [tool.setuptools]
 packages = ["neighborhood_correlation"]
 
+[tool.setuptools.dynamic]
+version = {attr = "neighborhood_correlation.__version__"}
