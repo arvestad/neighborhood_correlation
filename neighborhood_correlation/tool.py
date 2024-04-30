@@ -145,7 +145,6 @@ def main():
 
     if fd_out != sys.stdout: fd_out.close()
 
-    return ncrun
 
 if __name__ == "__main__":
     main()
