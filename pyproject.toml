@@ -12,6 +12,11 @@ maintainers = [
 description = "Protein sequence similarity assessment by assessing variance of sequences' scores to _other_ sequences"
 readme = "README.md"
 license = {text = "GNU General Public License v3 (GPLv3)"}
+keywords = [
+    "bioinformatics",
+     "protein comparison",
+     "NC_standalone"
+]
 classifiers = [
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
