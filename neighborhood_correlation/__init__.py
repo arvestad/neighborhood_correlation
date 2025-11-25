@@ -1,3 +1,3 @@
-__version__ = "2.2"
+__version__ = "2.2.1"
 
 from neighborhood_correlation.tool import main

@@ -206,6 +206,11 @@ Execution may be accomplished with:
 
 #  ChangeLog
 
+## Version 2.2.1
+
+Corrected error handling when input data is not three columns and
+separated by single blank spaces.
+
 ## Version 2.2
 
 The code was updated by Jesper Holm in 2022, to ensure that it could run on Python 3.x, and specifically 3.7. 
