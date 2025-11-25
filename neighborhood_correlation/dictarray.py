@@ -153,7 +153,7 @@ Scores will be transformed by application of a log_10."""
         try:
             (seq_id_0_txt, seq_id_1_txt, score) = larr
         except:
-            print("Flatfile line unparsable: '%s'" % l, file=sys.stderr)
+            print("Flatfile line unparsable: '%s'" % larr, file=sys.stderr)
             raise
 
         try:

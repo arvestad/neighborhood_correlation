@@ -13,8 +13,12 @@ class nc_standalone( nc_base):
         self.new_run( 0, None, nc_thresh, smin_factor,
                       0, num_residues)
 
-        (self.score_dict, self.seq_id_map
-         ) = fetch_score_dict_flatfile( flatfile_name)
+        try:
+            (self.score_dict, self.seq_id_map) = fetch_score_dict_flatfile(flatfile_name)
+        except:
+            print("Could not read data from the input file.", file=sys.stdout)
+            print("Are you sure the input file is three columns delimited by a single space?", file=sys.stdout)
+            exit("Aborting")
 
         # provide information about the blast run. Used to calculate
         # SMIN. If not specified, use the average number of residues
