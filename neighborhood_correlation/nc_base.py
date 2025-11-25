@@ -211,8 +211,7 @@ Optional arguments:
         t = time.time()
         for i,seq_id_0 in enumerate(query_seqs):
             if (i > 0 and i < 1000 and i % 100==0) or (i > 0 and i % 1000==0):
-                print("Queries performed: %d, Elapsed time: %s" % (
-                    i, datetime.timedelta(seconds = time.time() - t)))
+                print(f"Queries performed: {i}, Elapsed time: {datetime.timedelta(seconds = time.time() - t)}", file=sys.stderr)
 
             if not seq_id_0 in score_dict:
                 print("Query '%d' not found in score_dict" % seq_id_0, file=sys.stderr)
@@ -234,6 +233,5 @@ Optional arguments:
             if callback is not None:
                 callback( seq_id_0, n_0, nc_hitlist)
 
-        print("Queries performed: %d, Elapsed time: %s" % (
-            i, datetime.timedelta(seconds = time.time() - t)))
+        print(f"Queries performed: {i}, Elapsed time: {datetime.timedelta(seconds = time.time() - t)}", file=sys.stderr)
 
